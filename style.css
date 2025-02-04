@@ -296,7 +296,15 @@ blockquote::before {
   .card.centered {
     max-width: 100%; /* Full width on mobile */
   }
-}
+
+  .swiper-slide img {
+    width: 100%;
+    height: 350px; /* fixed height */
+    object-fit: cover;
+    
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}}
 
 
 #Gallery {
@@ -320,7 +328,7 @@ blockquote::before {
 
 .swiper {
   width: 100%;
-  height: 450px;
+  height: 480px;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
@@ -337,9 +345,9 @@ blockquote::before {
 }
 
 .swiper-slide img {
-  width: 100%;
+  width: 70%;
   height: 350px; /* fixed height */
-  object-fit: contain; /* ensures the entire image is visible */
+   /* ensures the entire image is visible */
   border-radius: 10px;
   transition: transform 0.3s ease-in-out;
 }
