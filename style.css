@@ -382,6 +382,7 @@ blockquote::before {
   }
   .intro p{
     font-size: 16px;
+    line-height: 4.5;
   }
   .intro h5{
     font-size: 20px;
