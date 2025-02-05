@@ -129,7 +129,7 @@ nav {
     color: white;
 }
 .seperation{
-    width: 100vw;
+    width: 98.7vw;
     height: 3px;
     background-color: rgba(96, 96, 235, 0.658);
 }
@@ -304,7 +304,28 @@ blockquote::before {
     
     border-radius: 10px;
     transition: transform 0.3s ease-in-out;
-}}
+}
+
+
+}
+
+@media screen and (max-width:1154px){
+  .intro p{
+    font-size: 21px;
+  }
+  .intro h5{
+    font-size: 21px;
+  }
+  .button{
+    padding: 6px 8px;
+    font-size: 18px;
+  }
+  
+
+}
+
+
+
 
 
 #Gallery {
