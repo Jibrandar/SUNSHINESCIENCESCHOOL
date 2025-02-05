@@ -398,11 +398,7 @@ blockquote::before {
 #home{
   height: 70vh;
 } 
-nav{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+
 
 
 .logo img {
