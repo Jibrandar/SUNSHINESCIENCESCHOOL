@@ -22,3 +22,25 @@ document.querySelectorAll('.read-more').forEach(button => {
       button.textContent = target.classList.contains('show') ? 'Read less' : 'Read more';
     });
   });
+
+  //js for hamburger
+  document.addEventListener("DOMContentLoaded", function () {
+    const hamburger = document.getElementById("hamburger");
+    const navList = document.getElementById("nav-list");
+    const navLinks = document.querySelectorAll(".list ul li a");
+
+    hamburger.addEventListener("click", function () {
+        navList.classList.toggle("active");
+    });
+
+    navLinks.forEach(link => {
+        link.addEventListener("click", function () {
+            navList.classList.remove("active");
+        });
+    });
+
+    window.addEventListener("scroll", function () {
+        navList.classList.remove("active");
+    });
+});
+
