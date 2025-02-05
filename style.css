@@ -349,6 +349,7 @@ blockquote::before {
   transition: transform 0.3s ease-in-out;
   transform: translateX(100%);
   z-index: 1;
+  transition: all 0.3s ease-in-out;
   
   }
 .list.active {
@@ -377,13 +378,13 @@ blockquote::before {
 
 @media only screen and (max-width:968px) {
   .intro{
-    height: 220px;
+    height: 230px;
   }
   .intro p{
-    font-size: 18px;
+    font-size: 15px;
   }
   .intro h5{
-    font-size: 18px;
+    font-size: 15px;
   }
   .button{
     padding: 4px 6px;
@@ -391,7 +392,17 @@ blockquote::before {
   }
 #home{
   height: 70vh;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+
+.logo img {
+  height: 90px;
+  width: 120px;
 }
 
 
