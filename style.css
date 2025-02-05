@@ -308,27 +308,62 @@ blockquote::before {
 
 
 }
+@media screen and (max-width: 1154px) {
+  nav {
+    margin: 0px 20px; /* Reduce margin for smaller screens */
+  }
 
-@media screen and (max-width:1154px){
-  #home{
-    height: 60vh;
+  .list ul {
+    gap: 40px; /* Reduce gap between list items */
+    font-size: 20px; /* Slightly reduce font size */
   }
-  .intro{
-    height: 550px;
-  }
-  .intro p{
-    font-size: 30px;
-  }
-  .intro h5{
-    font-size: 30px;
-  }
-  .button{
-    padding: 8px 10px;
-    font-size: 18px;
-  }
-  
 
+  .intro p {
+    font-size: 35px; /* Reduce font size for intro text */
+    line-height: 2.5; /* Adjust line height */
+  }
+
+  .intro h5 {
+    font-size: 30px; /* Reduce font size for subheading */
+  }
+
+  .button {
+    font-size: 18px; /* Reduce button font size */
+    padding: 6px 10px; /* Adjust button padding */
+  }
 }
+
+/* For screens up to 968px */
+@media screen and (max-width: 968px) {
+  nav {
+    margin: 0px 10px; /* Further reduce margin */
+  }
+
+  .list ul {
+    gap: 30px; /* Further reduce gap between list items */
+    font-size: 18px; /* Further reduce font size */
+  }
+
+  .intro p {
+    font-size: 30px; /* Further reduce font size for intro text */
+    line-height: 2; /* Adjust line height */
+  }
+
+  .intro h5 {
+    font-size: 25px; /* Further reduce font size for subheading */
+  }
+
+  .button {
+    font-size: 16px; /* Further reduce button font size */
+    padding: 5px 8px; /* Adjust button padding */
+  }
+
+  .logo img {
+    height: 70px; /* Reduce logo size */
+    width: 120px;
+  }
+}
+
 
 
 
