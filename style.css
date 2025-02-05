@@ -381,14 +381,14 @@ blockquote::before {
     height: 230px;
   }
   .intro p{
-    font-size: 15px;
+    font-size: 16px;
   }
   .intro h5{
-    font-size: 15px;
+    font-size: 20px;
   }
   .button{
-    padding: 4px 6px;
-    font-size: 12px;
+    padding: 8px 17px;
+    font-size: 15px;
   }
 #home{
   height: 70vh;
