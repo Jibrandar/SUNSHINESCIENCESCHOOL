@@ -1,0 +1,17 @@
+{
+  "name": "sunshineschool",
+  "version": "1.0.0",
+  "description": "Official website for Sunshine Science School",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jibrandar/SUNSHINESCIENCESCHOOL.git"
+  },
+  "author": "Jibran Bin Ajaz",
+  "license": "ISC"
+  
+  
+}
