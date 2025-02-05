@@ -346,8 +346,9 @@ blockquote::before {
   height: 70vh;
   background: rgba(0, 0, 0, 0.9);
   padding: 50px 20px;
-  transition: transform 0.3s ease-in-out;
+ 
   transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
   z-index: 1;
   transition: all 0.3s ease-in-out;
   
@@ -355,6 +356,7 @@ blockquote::before {
 .list.active {
   display: flex;
   transform: translateX(0);
+  transition: all 0.3s ease-in-out;
 }
 .list ul {
   flex-direction: column;
@@ -383,9 +385,11 @@ blockquote::before {
   .intro p{
     font-size: 16px;
     line-height: 4.5;
+     font-weight: 700;
   }
   .intro h5{
     font-size: 20px;
+    font-weight:650;
   }
   .button{
     padding: 8px 17px;
