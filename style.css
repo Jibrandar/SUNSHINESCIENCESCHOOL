@@ -385,11 +385,11 @@ blockquote::before {
   .intro p{
     font-size: 16px;
     line-height: 4.5;
-     font-weight: 700;
+     
   }
   .intro h5{
     font-size: 20px;
-    font-weight:650;
+  
   }
   .button{
     padding: 8px 17px;
