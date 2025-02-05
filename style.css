@@ -310,14 +310,20 @@ blockquote::before {
 }
 
 @media screen and (max-width:1154px){
+  #home{
+    height: 60vh;
+  }
+  .intro{
+    height: 550px;
+  }
   .intro p{
-    font-size: 21px;
+    font-size: 30px;
   }
   .intro h5{
-    font-size: 21px;
+    font-size: 30px;
   }
   .button{
-    padding: 6px 8px;
+    padding: 8px 10px;
     font-size: 18px;
   }
   
