@@ -495,7 +495,7 @@ blockquote::before {
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  max-width: 900px;
+  max-width: 1000px;
   width: 100%;
   opacity: 0;
   transform: translateX(-50px);
@@ -518,7 +518,7 @@ blockquote::before {
 }
 
 .contact-details {
-  width: 40%;
+  width: 51%;
   padding: 20px;
   background: linear-gradient(to bottom, #0277bd, #01579b);
   color: white;
@@ -579,7 +579,7 @@ input:focus, textarea:focus {
       flex-direction: column;
       align-items: center;
   }
-  .contact-details, .container {
+  .contact-details, .form-container {
       width: 100%;
       border-radius: 12px 12px 0 0;
   }
