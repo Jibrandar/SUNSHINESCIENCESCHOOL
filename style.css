@@ -488,3 +488,99 @@ blockquote::before {
 .swiper-pagination-bullet-active {
   background: #3498db;
 }
+
+.wrapper {
+  display: flex;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  width: 100%;
+  opacity: 0;
+  transform: translateX(-50px);
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+#Contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: #c6ddf370; 
+}
+
+.contact-details {
+  width: 40%;
+  padding: 20px;
+  background: linear-gradient(to bottom, #0277bd, #01579b);
+  color: white;
+  border-radius: 12px 0 0 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.form-container {
+  width: 60%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-details h2 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+input, textarea {
+  width: calc(100% - 20px);
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+}
+
+input:focus, textarea:focus {
+  border-color: #0277bd;
+}
+
+.submit {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #0277bd, #01579b);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+  transition: all  0.3s ease;
+}
+
+.submit:hover {
+  background: linear-gradient(to right, #01579b, #014377);
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+      flex-direction: column;
+      align-items: center;
+  }
+  .contact-details, .container {
+      width: 100%;
+      border-radius: 12px 12px 0 0;
+  }
+}
